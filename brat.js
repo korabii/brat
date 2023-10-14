@@ -8,14 +8,17 @@ exports.brat = {
 }
 
 exports.backbrat = {
+    state: {
+        energy: 10
+    },
     lastExercise : {
-        time: new Date(2023, 10, 13, 18, 0, 0),
+        time: 1697310414872, //2023-10-14T19:06:54.872Z
         type: "running",
         duration: 20
     },
     lastMeal : {
-        time: new Date(2023, 10, 13, 18, 0, 0),
-        type: "burger"
+        time: 1697310414872, //2023-10-14T19:06:54.872Z
+        type: "burger",
     }
 
 }
